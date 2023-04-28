@@ -32,12 +32,16 @@ nav{
 }
 
 .dropmenu{
-    display: flex;
-    margin-top: 1rem;
+    display: none;
     padding: 1.5rem 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    width: 90%;
+    margin: 2rem 5%;
+    background: cyan;
+    border-radius: 5px;
 }
 
 .dropmenu a{
@@ -47,6 +51,19 @@ nav{
     color: black;
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
+}
+
+.hero-page{
+    height: 90vh;
+}
+
+.hero-bg{
+    height: 50%;
+    background-image: url(./images/bg-intro-mobile.svg);
+}
+
+.hero-desc{
+    height: 50%;
 }
 
 
