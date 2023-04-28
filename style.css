@@ -31,6 +31,24 @@ nav{
     display: none;
 }
 
+.dropmenu{
+    display: flex;
+    margin-top: 1rem;
+    padding: 1.5rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropmenu a{
+    padding: .6rem 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
 
 
 
