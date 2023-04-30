@@ -137,7 +137,48 @@ nav{
     color: hsl(233, 8%, 62%);
 }
 
+.choosebank-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
 /* general coding for choosebank sub wrapper  */
+.choose-content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.choose-img{
+    width: 30%;
+    height: 30%;
+    padding-bottom: 2rem;
+}
+
+.choose-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.choose-title{
+    padding-bottom: 2rem;
+
+}
+
+.choose-title h1{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.choose-desc-txt p{
+    font-size: 1rem;
+    text-align: center;
+    color: hsl(233, 8%, 62%);
+}
 
 
 
