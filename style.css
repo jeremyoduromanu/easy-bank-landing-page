@@ -112,7 +112,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 2rem;
+    padding: 3rem 1.5rem;
     background-color: hsl(0, 0%, 98%);
 }
 
@@ -126,6 +126,18 @@ nav{
     font-weight: 300;
 }
 
+.choosebank-desc{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.choosebank-desc p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: hsl(233, 8%, 62%);
+}
+
+/* general coding for choosebank sub wrapper  */
 
 
 
