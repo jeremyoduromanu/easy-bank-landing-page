@@ -107,7 +107,24 @@ nav{
     background: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
 }
 
+.choosebank{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: hsl(0, 0%, 98%);
+}
 
+.choosebank-title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.choosebank-title h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
 
 
 
