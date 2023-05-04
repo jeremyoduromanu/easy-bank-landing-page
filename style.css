@@ -113,7 +113,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 3rem 1.5rem;
-    background-color: hsl(0, 0%, 98%);
+    background-color: hsl(220, 16%, 96%);
 }
 
 .choosebank-title{
@@ -124,6 +124,7 @@ nav{
 .choosebank-title h1{
     font-size: 2.5rem;
     font-weight: 300;
+    color: hsl(233, 26%, 24%);
 }
 
 .choosebank-desc{
@@ -177,6 +178,83 @@ nav{
 .choose-desc-txt p{
     font-size: 1rem;
     text-align: center;
+    color: hsl(233, 8%, 62%);
+}
+
+.latest-articles{
+    padding: 3rem 0 5rem 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.articles-title{
+    margin: 2rem 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.articles-title h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+
+.articles-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-box{
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 2rem;
+}
+
+.article-img{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.article-img img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.article-author{
+    padding: 0 10%;
+    margin-bottom: 1rem;
+}
+
+.article-author span{
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+.article-title{
+    padding: 0 10%;
+    margin-bottom: 1rem;
+}
+
+.article-title h2{
+    font-size: 1.2rem;
+    font-family: 'Public Sans',sans-serif;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+}
+
+
+.article-txt{
+    padding: 0 10%;
+    margin-bottom: 1rem;
+}
+
+.article-txt p{
+    font-size: 1rem;
     color: hsl(233, 8%, 62%);
 }
 
