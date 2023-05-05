@@ -31,6 +31,10 @@ nav{
     display: none;
 }
 
+.nav-button{
+    display: none;
+}
+
 .dropmenu{
     display: none;
     padding: 1.5rem 0;
@@ -152,6 +156,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+    max-width: 500px;
 }
 
 .choose-img{
@@ -208,21 +213,56 @@ nav{
 
 .article-box{
     width: 85%;
+    max-width: 500px;
     margin: auto;
     border-radius: 10px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(220, 16%, 96%);
     padding-bottom: 2rem;
+    height: 400px;
 }
+
+.box1  .article-img{
+    background-image: url(./images/image-currency.jpg);
+    border-radius: 10px 10px 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.box2 .article-img {
+    background-image: url(./images/image-restaurant.jpg);
+    border-radius: 10px 10px 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.box3 .article-img {
+    background-image: url(./images/image-plane.jpg);
+    border-radius: 10px 10px 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.box4 .article-img {
+    background-image: url(./images/image-confetti.jpg);
+    border-radius: 10px 10px 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.article-text{
+    height: 50%;
+}
+
 
 .article-img{
-    width: 100%;
-    padding-bottom: 2rem;
+    height: 50%;
+    margin-bottom: 1rem;
 }
 
-.article-img img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-}
 
 .article-author{
     padding: 0 10%;
@@ -344,4 +384,171 @@ footer button{
 
 .attribution{
     display: block;
+}
+
+@media only screen and (min-width: 900px){
+    header{
+        padding: 0 10%;
+        margin: auto;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+
+
+    nav{
+        display: block;
+        width: 40%;
+    }
+
+    nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 10%;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: hsl(233, 26%, 24%);
+        font-family: 'Public Sans', sans-serif;
+        transition:all .5s ease;
+        position: relative;
+    }
+
+    nav li a::before{
+        content: "";
+        width: 0%;
+        background-color: hsl(136, 65%, 51%);
+        height: 5px;
+        position: absolute;
+        bottom: -150%;
+        transition: width .2s ease;
+    }
+
+    nav li a:hover::before{
+        width: 100%;
+    }
+
+    .nav-button{
+        width: 20%;
+    }
+
+    .nav-button{
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .dropdown-toggler{
+        display: none;
+    }
+
+    .hero-page{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .hero-bg{
+        width: 50%;
+        height: 100%;
+    }
+
+    .hero-text{
+        width: 50%;
+        align-items: flex-start;
+        height: fit-content;
+        margin-left: 5%;
+    }
+
+    .hero-text .hero-title h1{
+        text-align: left;
+        font-size: 3rem;
+    }
+
+    .hero-text .hero-desc p{
+        text-align: left;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .choosebank{
+        display: block;
+        padding: 0 10%;
+    }
+
+    .choosebank-title{
+        text-align: left;
+    }
+
+    .choosebank-desc{
+        text-align: left;
+        max-width: 700px;
+    }
+
+        .choosebank-content-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+            gap: 1rem;
+        }
+
+.choose-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.choose-desc-txt p{
+    text-align: left;
+}
+
+    .latest-articles{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .articles-title{
+        text-align: left;
+    }
+
+    .articles-wrapper{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .article-box{
+        width: 100%;
+        border-radius: 0;
+        padding-bottom: 1rem;
+        margin: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5% 10%;
+    }
+
+    .footer-links{
+        flex: 2;
+    }
+
+    .footer-links ul{
+        flex-direction: ;
+    }
+
+   
 }
