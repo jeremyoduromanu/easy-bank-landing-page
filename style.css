@@ -217,7 +217,7 @@ nav{
     margin: auto;
     border-radius: 10px;
     background-color: hsl(220, 16%, 96%);
-    /* padding-bottom: 2rem; */
+    padding-bottom: 2rem;
     height: 400px;
 }
 
@@ -253,9 +253,9 @@ nav{
         background-position: center;
 }
 
-/* .article-text{
+.article-text{
     height: 50%;
-} */
+}
 
 
 .article-img{
